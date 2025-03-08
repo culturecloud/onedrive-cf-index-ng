@@ -39,8 +39,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       axios:
-        specifier: ^1.5.1
-        version: 1.5.1
+        specifier: ^1.8.2
+        version: 1.8.2
       crypto-js:
         specifier: ^4.1.1
         version: 4.1.1
@@ -968,8 +968,8 @@ packages:
     resolution: {integrity: sha512-/dlp0fxyM3R8YW7MFzaHWXrf4zzbr0vaYb23VBFCl83R7nWNPg/yaQw2Dc8jzCMmDVLhSdzH8MjrsuIUuvX+6g==}
     engines: {node: '>=4'}
 
-  axios@1.5.1:
-    resolution: {integrity: sha512-Q28iYCWzNHjAm+yEAot5QaAMxhMghWLFVf7rRdwhUI+c2jix2DUXjAHXVi+s1ibs3mjPO/cCgbA++3BjD0vP/A==}
+  axios@1.8.2:
+    resolution: {integrity: sha512-ls4GYBm5aig9vWx8AWDSGLpnpDQRtWAfrjU+EuytuODrFBkqesN2RkOQCBzrA1RQNHw1SmRMSDDDSwzNAYQ6Rg==}
 
   axobject-query@3.2.1:
     resolution: {integrity: sha512-jsyHu61e6N4Vbz/v18DHwWYKK0bSWLqn47eeDSKPB7m8tqMHF9YJ+mhIk2lVteyZrY8tnSj/jHOv4YiTCuCJgg==}
@@ -1015,6 +1015,10 @@ packages:
   bytes@3.1.0:
     resolution: {integrity: sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==}
     engines: {node: '>= 0.8'}
+
+  call-bind-apply-helpers@1.0.2:
+    resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
+    engines: {node: '>= 0.4'}
 
   call-bind@1.0.2:
     resolution: {integrity: sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==}
@@ -1143,6 +1147,9 @@ packages:
 
   core-js@3.33.0:
     resolution: {integrity: sha512-HoZr92+ZjFEKar5HS6MC776gYslNOKHt75mEBKWKnPeFDpZ6nH5OeF3S6HFT1mUAUZKrzkez05VboaX8myjSuw==}
+
+  core-js@3.41.0:
+    resolution: {integrity: sha512-SJ4/EHwS36QMJd6h/Rg+GyR4A5xE0FSI3eZ+iBVpfqf1x0eTSg1smWLHrA+2jQThZSh97fmSgFSU8B61nxosxA==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -1276,6 +1283,10 @@ packages:
     resolution: {integrity: sha512-l32Xp/TLgWb8ReqbVJAFIvXmY7go4nTxxlWiAFyhoQw9RKEOHBZNnyGvJWqDVSPmq3Y9HlM4npqF/T6VMOXhww==}
     deprecated: dommatrix is no longer maintained. Please use @thednp/dommatrix.
 
+  dunder-proto@1.0.1:
+    resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
+    engines: {node: '>= 0.4'}
+
   edge-runtime@2.5.9:
     resolution: {integrity: sha512-pk+k0oK0PVXdlT4oRp4lwh+unuKB7Ng4iZ2HB+EZ7QCEQizX360Rp/F4aRpgpRgdP2ufB35N+1KppHmYjqIGSg==}
     engines: {node: '>=16'}
@@ -1314,14 +1325,26 @@ packages:
     resolution: {integrity: sha512-YoxfFcDmhjOgWPWsV13+2RNjq1F6UQnfs+8TftwNqtzlmFzEXvlUwdrNrYeaizfjQzRMxkZ6ElWMOJIFKdVqwA==}
     engines: {node: '>= 0.4'}
 
+  es-define-property@1.0.1:
+    resolution: {integrity: sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==}
+    engines: {node: '>= 0.4'}
+
+  es-errors@1.3.0:
+    resolution: {integrity: sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==}
+    engines: {node: '>= 0.4'}
+
   es-iterator-helpers@1.0.15:
     resolution: {integrity: sha512-GhoY8uYqd6iwUl2kgjTm4CZAf6oo5mHK7BPqx3rKgx893YSsy0LGHV6gfqqQvZt/8xM8xeOnfXBCfqclMKkJ5g==}
 
   es-module-lexer@1.4.1:
     resolution: {integrity: sha512-cXLGjP0c4T3flZJKQSuziYoq7MlT+rnvfZjfp7h+I7K9BNX54kP9nyWvdbwjQ4u1iWbOL4u96fgeZLToQlZC7w==}
 
-  es-set-tostringtag@2.0.1:
-    resolution: {integrity: sha512-g3OMbtlwY3QewlqAiMLI47KywjWZoEytKr8pf6iTC8uJq5bIAH52Z9pnQ8pVL6whrCto53JZDuUIsifGeLorTg==}
+  es-object-atoms@1.1.1:
+    resolution: {integrity: sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==}
+    engines: {node: '>= 0.4'}
+
+  es-set-tostringtag@2.1.0:
+    resolution: {integrity: sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==}
     engines: {node: '>= 0.4'}
 
   es-shim-unscopables@1.0.0:
@@ -1793,8 +1816,8 @@ packages:
   flatted@3.2.9:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
 
-  follow-redirects@1.15.3:
-    resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==}
+  follow-redirects@1.15.9:
+    resolution: {integrity: sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -1805,8 +1828,8 @@ packages:
   for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
 
-  form-data@4.0.0:
-    resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
+  form-data@4.0.2:
+    resolution: {integrity: sha512-hGfm/slu0ZabnNt4oaRZ6uREyfCj6P4fT/n6A1rGV+Z0VdGXjfOhVUpkn6qVQONHGIFwmveGXyDs75+nr6FM8w==}
     engines: {node: '>= 6'}
 
   format@0.2.2:
@@ -1842,6 +1865,9 @@ packages:
   function-bind@1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
 
+  function-bind@1.1.2:
+    resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
+
   function.prototype.name@1.1.6:
     resolution: {integrity: sha512-Z5kx79swU5P27WEayXM1tBi5Ze/lbIyiNgU3qyXUOf9b2rgXYyF9Dy9Cx+IQv/Lc8WCG6L82zwUPpSS9hGehIg==}
     engines: {node: '>= 0.4'}
@@ -1860,6 +1886,14 @@ packages:
 
   get-intrinsic@1.2.1:
     resolution: {integrity: sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==}
+
+  get-intrinsic@1.3.0:
+    resolution: {integrity: sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==}
+    engines: {node: '>= 0.4'}
+
+  get-proto@1.0.1:
+    resolution: {integrity: sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==}
+    engines: {node: '>= 0.4'}
 
   get-source@2.0.12:
     resolution: {integrity: sha512-X5+4+iD+HoSeEED+uwrQ07BOQr0kEDFMVqqpBuI+RaZBpBpHCuXxo70bjar6f0b0u/DQJsJ7ssurpP0V60Az+w==}
@@ -1918,6 +1952,10 @@ packages:
   gopd@1.0.1:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
 
+  gopd@1.2.0:
+    resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
+    engines: {node: '>= 0.4'}
+
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
@@ -1942,8 +1980,12 @@ packages:
     resolution: {integrity: sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==}
     engines: {node: '>= 0.4'}
 
-  has-tostringtag@1.0.0:
-    resolution: {integrity: sha512-kFjcSNhnlGV1kyoGk7OXKSawH5JOb/LzUc5w9B02hOTO0dfFRjbHQKvg1d6cf3HbeUmtU9VbbV3qzZ2Teh97WQ==}
+  has-symbols@1.1.0:
+    resolution: {integrity: sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==}
+    engines: {node: '>= 0.4'}
+
+  has-tostringtag@1.0.2:
+    resolution: {integrity: sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==}
     engines: {node: '>= 0.4'}
 
   has-unicode@2.0.1:
@@ -1952,6 +1994,10 @@ packages:
   has@1.0.4:
     resolution: {integrity: sha512-qdSAmqLF6209RFj4VVItywPMbm3vWylknmB3nvNiUIs72xAimcM8nVYxYr7ncvZq5qzk9MKIZR8ijqD/1QuYjQ==}
     engines: {node: '>= 0.4.0'}
+
+  hasown@2.0.2:
+    resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
+    engines: {node: '>= 0.4'}
 
   hast-util-from-dom@4.2.0:
     resolution: {integrity: sha512-t1RJW/OpJbCAJQeKi3Qrj1cAOLA0+av/iPFori112+0X7R3wng+jxLA+kXec8K4szqPRGI8vPxbbpEYvvpwaeQ==}
@@ -2271,8 +2317,8 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  loadjs@4.2.0:
-    resolution: {integrity: sha512-AgQGZisAlTPbTEzrHPb6q+NYBMD+DP9uvGSIjSUM5uG+0jG15cb8axWpxuOIqrmQjn6scaaH8JwloiP27b2KXA==}
+  loadjs@4.3.0:
+    resolution: {integrity: sha512-vNX4ZZLJBeDEOBvdr2v/F+0aN5oMuPu7JTqrMwp+DtgK+AryOlpy6Xtm2/HpNr+azEa828oQjOtWsB6iDtSfSQ==}
 
   localforage@1.10.0:
     resolution: {integrity: sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg==}
@@ -2322,6 +2368,10 @@ packages:
 
   marks-pane@1.0.9:
     resolution: {integrity: sha512-Ahs4oeG90tbdPWwAJkAAoHg2lRR8lAs9mZXETNPO9hYg3AkjUJBKi1NQ4aaIQZVGrig7c/3NUV1jANl8rFTeMg==}
+
+  math-intrinsics@1.1.0:
+    resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
+    engines: {node: '>= 0.4'}
 
   mdast-util-definitions@5.1.2:
     resolution: {integrity: sha512-8SVPMuHqlPME/z3gqVwWY4zVXn8lqKv/pAhC57FuJ40ImXyBpmO5ukh98zB2v7Blql2FiHjHv9LVztSIqjY+MA==}
@@ -3545,8 +3595,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  url-polyfill@1.1.12:
-    resolution: {integrity: sha512-mYFmBHCapZjtcNHW0MDq9967t+z4Dmg5CJ0KqysK3+ZbyoNOWQHksGCTWwDhxGXllkWlOc10Xfko6v4a3ucM6A==}
+  url-polyfill@1.1.13:
+    resolution: {integrity: sha512-tXzkojrv2SujumYthZ/WjF7jaSfNhSXlYMpE5AYdL2I3D7DCeo+mch8KtW2rUuKjDg+3VXODXHVgipt8yGY/eQ==}
 
   use-clipboard-copy@0.2.0:
     resolution: {integrity: sha512-f0PMMwZ2/Hh9/54L12capx4s6ASdd6edNJxg2OcqWVNM8BPvtOSmNFIN1Dg/q//fPp8MpUZceHfr7cnWOS0RxA==}
@@ -4439,7 +4489,7 @@ snapshots:
       call-bind: 1.0.2
       define-properties: 1.2.1
       es-abstract: 1.22.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.3.0
       is-array-buffer: 3.0.2
       is-shared-array-buffer: 1.0.2
 
@@ -4494,10 +4544,10 @@ snapshots:
 
   axe-core@4.8.2: {}
 
-  axios@1.5.1:
+  axios@1.8.2:
     dependencies:
-      follow-redirects: 1.15.3
-      form-data: 4.0.0
+      follow-redirects: 1.15.9
+      form-data: 4.0.2
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -4543,6 +4593,11 @@ snapshots:
       streamsearch: 1.1.0
 
   bytes@3.1.0: {}
+
+  call-bind-apply-helpers@1.0.2:
+    dependencies:
+      es-errors: 1.3.0
+      function-bind: 1.1.2
 
   call-bind@1.0.2:
     dependencies:
@@ -4647,6 +4702,8 @@ snapshots:
 
   core-js@3.33.0: {}
 
+  core-js@3.41.0: {}
+
   core-util-is@1.0.3: {}
 
   create-require@1.1.1: {}
@@ -4698,8 +4755,8 @@ snapshots:
 
   define-data-property@1.1.0:
     dependencies:
-      get-intrinsic: 1.2.1
-      gopd: 1.0.1
+      get-intrinsic: 1.3.0
+      gopd: 1.2.0
       has-property-descriptors: 1.0.0
 
   define-properties@1.2.1:
@@ -4741,6 +4798,12 @@ snapshots:
       esutils: 2.0.3
 
   dommatrix@1.0.3: {}
+
+  dunder-proto@1.0.1:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-errors: 1.3.0
+      gopd: 1.2.0
 
   edge-runtime@2.5.9:
     dependencies:
@@ -4795,7 +4858,7 @@ snapshots:
       arraybuffer.prototype.slice: 1.0.2
       available-typed-arrays: 1.0.5
       call-bind: 1.0.2
-      es-set-tostringtag: 2.0.1
+      es-set-tostringtag: 2.1.0
       es-to-primitive: 1.2.1
       function.prototype.name: 1.1.6
       get-intrinsic: 1.2.1
@@ -4831,13 +4894,17 @@ snapshots:
       unbox-primitive: 1.0.2
       which-typed-array: 1.1.11
 
+  es-define-property@1.0.1: {}
+
+  es-errors@1.3.0: {}
+
   es-iterator-helpers@1.0.15:
     dependencies:
       asynciterator.prototype: 1.0.0
       call-bind: 1.0.2
       define-properties: 1.2.1
       es-abstract: 1.22.2
-      es-set-tostringtag: 2.0.1
+      es-set-tostringtag: 2.1.0
       function-bind: 1.1.1
       get-intrinsic: 1.2.1
       globalthis: 1.0.3
@@ -4850,11 +4917,16 @@ snapshots:
 
   es-module-lexer@1.4.1: {}
 
-  es-set-tostringtag@2.0.1:
+  es-object-atoms@1.1.1:
     dependencies:
-      get-intrinsic: 1.2.1
-      has: 1.0.4
-      has-tostringtag: 1.0.0
+      es-errors: 1.3.0
+
+  es-set-tostringtag@2.1.0:
+    dependencies:
+      es-errors: 1.3.0
+      get-intrinsic: 1.3.0
+      has-tostringtag: 1.0.2
+      hasown: 2.0.2
 
   es-shim-unscopables@1.0.0:
     dependencies:
@@ -5365,16 +5437,17 @@ snapshots:
 
   flatted@3.2.9: {}
 
-  follow-redirects@1.15.3: {}
+  follow-redirects@1.15.9: {}
 
   for-each@0.3.3:
     dependencies:
       is-callable: 1.2.7
 
-  form-data@4.0.0:
+  form-data@4.0.2:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
       mime-types: 2.1.35
 
   format@0.2.2: {}
@@ -5408,6 +5481,8 @@ snapshots:
 
   function-bind@1.1.1: {}
 
+  function-bind@1.1.2: {}
+
   function.prototype.name@1.1.6:
     dependencies:
       call-bind: 1.0.2
@@ -5438,6 +5513,24 @@ snapshots:
       has-proto: 1.0.1
       has-symbols: 1.0.3
 
+  get-intrinsic@1.3.0:
+    dependencies:
+      call-bind-apply-helpers: 1.0.2
+      es-define-property: 1.0.1
+      es-errors: 1.3.0
+      es-object-atoms: 1.1.1
+      function-bind: 1.1.2
+      get-proto: 1.0.1
+      gopd: 1.2.0
+      has-symbols: 1.1.0
+      hasown: 2.0.2
+      math-intrinsics: 1.1.0
+
+  get-proto@1.0.1:
+    dependencies:
+      dunder-proto: 1.0.1
+      es-object-atoms: 1.1.1
+
   get-source@2.0.12:
     dependencies:
       data-uri-to-buffer: 2.0.2
@@ -5450,7 +5543,7 @@ snapshots:
   get-symbol-description@1.0.0:
     dependencies:
       call-bind: 1.0.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.3.0
 
   get-tsconfig@4.7.2:
     dependencies:
@@ -5516,7 +5609,9 @@ snapshots:
 
   gopd@1.0.1:
     dependencies:
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.3.0
+
+  gopd@1.2.0: {}
 
   graceful-fs@4.2.11: {}
 
@@ -5534,13 +5629,19 @@ snapshots:
 
   has-symbols@1.0.3: {}
 
-  has-tostringtag@1.0.0:
+  has-symbols@1.1.0: {}
+
+  has-tostringtag@1.0.2:
     dependencies:
-      has-symbols: 1.0.3
+      has-symbols: 1.1.0
 
   has-unicode@2.0.1: {}
 
   has@1.0.4: {}
+
+  hasown@2.0.2:
+    dependencies:
+      function-bind: 1.1.2
 
   hast-util-from-dom@4.2.0:
     dependencies:
@@ -5717,12 +5818,12 @@ snapshots:
   is-array-buffer@3.0.2:
     dependencies:
       call-bind: 1.0.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.3.0
       is-typed-array: 1.1.12
 
   is-async-function@2.0.0:
     dependencies:
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   is-bigint@1.0.4:
     dependencies:
@@ -5735,7 +5836,7 @@ snapshots:
   is-boolean-object@1.1.2:
     dependencies:
       call-bind: 1.0.2
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   is-buffer@2.0.5: {}
 
@@ -5747,7 +5848,7 @@ snapshots:
 
   is-date-object@1.0.5:
     dependencies:
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   is-decimal@1.0.4: {}
 
@@ -5761,7 +5862,7 @@ snapshots:
 
   is-generator-function@1.0.10:
     dependencies:
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   is-glob@4.0.3:
     dependencies:
@@ -5775,7 +5876,7 @@ snapshots:
 
   is-number-object@1.0.7:
     dependencies:
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   is-number@7.0.0: {}
 
@@ -5786,7 +5887,7 @@ snapshots:
   is-regex@1.1.4:
     dependencies:
       call-bind: 1.0.2
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   is-set@2.0.2: {}
 
@@ -5798,11 +5899,11 @@ snapshots:
 
   is-string@1.0.7:
     dependencies:
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   is-symbol@1.0.4:
     dependencies:
-      has-symbols: 1.0.3
+      has-symbols: 1.1.0
 
   is-typed-array@1.1.12:
     dependencies:
@@ -5817,7 +5918,7 @@ snapshots:
   is-weakset@2.0.2:
     dependencies:
       call-bind: 1.0.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.3.0
 
   isarray@0.0.1: {}
 
@@ -5917,7 +6018,7 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
-  loadjs@4.2.0: {}
+  loadjs@4.3.0: {}
 
   localforage@1.10.0:
     dependencies:
@@ -5963,6 +6064,8 @@ snapshots:
   markdown-table@3.0.3: {}
 
   marks-pane@1.0.9: {}
+
+  math-intrinsics@1.1.0: {}
 
   mdast-util-definitions@5.1.2:
     dependencies:
@@ -6605,11 +6708,11 @@ snapshots:
 
   plyr@3.7.8:
     dependencies:
-      core-js: 3.33.0
+      core-js: 3.41.0
       custom-event-polyfill: 1.0.7
-      loadjs: 4.2.0
+      loadjs: 4.3.0
       rangetouch: 2.0.1
-      url-polyfill: 1.1.12
+      url-polyfill: 1.1.13
 
   postcss-import@15.1.0(postcss@8.4.31):
     dependencies:
@@ -6846,7 +6949,7 @@ snapshots:
       call-bind: 1.0.2
       define-properties: 1.2.1
       es-abstract: 1.22.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.3.0
       globalthis: 1.0.3
       which-builtin-type: 1.1.3
 
@@ -6972,7 +7075,7 @@ snapshots:
   safe-regex-test@1.0.0:
     dependencies:
       call-bind: 1.0.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.3.0
       is-regex: 1.1.4
 
   safer-buffer@2.1.2: {}
@@ -7301,7 +7404,7 @@ snapshots:
   typed-array-buffer@1.0.0:
     dependencies:
       call-bind: 1.0.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.3.0
       is-typed-array: 1.1.12
 
   typed-array-byte-length@1.0.0:
@@ -7412,7 +7515,7 @@ snapshots:
     dependencies:
       punycode: 2.3.0
 
-  url-polyfill@1.1.12: {}
+  url-polyfill@1.1.13: {}
 
   use-clipboard-copy@0.2.0(react@18.2.0):
     dependencies:
@@ -7508,7 +7611,7 @@ snapshots:
   which-builtin-type@1.1.3:
     dependencies:
       function.prototype.name: 1.1.6
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
       is-async-function: 2.0.0
       is-date-object: 1.0.5
       is-finalizationregistry: 1.0.2
@@ -7533,7 +7636,7 @@ snapshots:
       call-bind: 1.0.2
       for-each: 0.3.3
       gopd: 1.0.1
-      has-tostringtag: 1.0.0
+      has-tostringtag: 1.0.2
 
   which@2.0.2:
     dependencies:
